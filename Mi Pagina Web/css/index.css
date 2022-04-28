@@ -1,0 +1,47 @@
+header{
+    font-family: Verdana;
+    font-size: xx-large;
+    text-align: center;
+}
+body{
+    background-color: gray;
+    font-family: Arial;
+    margin: 10px;
+}
+#imagenes{
+    background: url(../img/index/imagen3.jpg);
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+#imagenes h2{
+    font-family: Verdana;
+    text-align: center;
+    font-size: 40px;
+}
+.color{
+    background: -webkit-linear-gradient(left, #26702b , #80c783);
+	background: -o-linear-gradient(right, #26702b , #80c783);
+	background: -moz-linear-gradient(right, #26702b , #80c783);
+	background: linear-gradient(to right, #26702b , #80c783);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.resaltado{
+    background: -webkit-linear-gradient(left, #f09e05 , #eec289);
+	background: -o-linear-gradient(right, #f09e05 , #eec289);
+	background: -moz-linear-gradient(right, #f09e05 , #eec289);
+	background: linear-gradient(to right, #f09e05 , #eec289);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+footer{
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid 1px black;
+}
